@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Telas\CadastroEnd.xaml.cs">
+      <DependentUpon>CadastroEnd.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +70,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Telas\CadastroEnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -93,6 +100,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Recursos\Imagens\brinquedo1.jfif" />
+    <Content Include="Recursos\Imagens\brinquedo2.jfif" />
+    <Content Include="Recursos\Imagens\brinquedo3.jfif" />
+    <Resource Include="Recursos\Imagens\carrinho.png" />
+    <Resource Include="Recursos\Imagens\check.png" />
+    <Resource Include="Recursos\Imagens\configuracao.png" />
+    <Resource Include="Recursos\Imagens\editar.png" />
+    <Resource Include="Recursos\Imagens\envios.png" />
+    <Resource Include="Recursos\Imagens\excluir.png" />
+    <Resource Include="Recursos\Imagens\favorite.png" />
+    <Resource Include="Recursos\Imagens\home.png" />
+    <Resource Include="Recursos\Imagens\lista.png" />
+    <Resource Include="Recursos\Imagens\logo.png" />
+    <Resource Include="Recursos\Imagens\logo2.jpeg" />
+    <Resource Include="Recursos\Imagens\pesquisa.png" />
+    <Resource Include="Recursos\Imagens\produtos.png" />
+    <Resource Include="Recursos\Imagens\sair.png" />
+    <Resource Include="Recursos\Imagens\salvar.png" />
+    <Resource Include="Recursos\Imagens\transacao.png" />
+    <Resource Include="Recursos\Imagens\usuario.png" />
+    <Resource Include="Recursos\Imagens\x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
