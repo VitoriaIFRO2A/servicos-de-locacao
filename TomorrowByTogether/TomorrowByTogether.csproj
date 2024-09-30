@@ -58,6 +58,30 @@
     <Compile Include="Telas\CadastroEnd.xaml.cs">
       <DependentUpon>CadastroEnd.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Telas\CadClienteDois.xaml.cs">
+      <DependentUpon>CadClienteDois.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\CadClienteUm.xaml.cs">
+      <DependentUpon>CadClienteUm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\CadFornecedor.xaml.cs">
+      <DependentUpon>CadFornecedor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\CadFuncionario.xaml.cs">
+      <DependentUpon>CadFuncionario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Catalogo.xaml.cs">
+      <DependentUpon>Catalogo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\ConsultarAgendamento.xaml.cs">
+      <DependentUpon>ConsultarAgendamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\ConsutarFornecedor.xaml.cs">
+      <DependentUpon>ConsutarFornecedor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Produtos.xaml.cs">
+      <DependentUpon>Produtos.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,6 +95,38 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Telas\CadastroEnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\CadClienteDois.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\CadClienteUm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\CadFornecedor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\CadFuncionario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\Catalogo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\ConsultarAgendamento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\ConsutarFornecedor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\Produtos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
