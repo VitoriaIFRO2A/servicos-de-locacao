@@ -27,6 +27,11 @@
     </Window.Resources>
 
     <Grid>
+
+        <Grid.Background>
+            <ImageBrush ImageSource= "/Recursos/Imagens/fundo.jpeg" />
+
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="509*"/>
             <ColumnDefinition Width="16*"/>
@@ -38,8 +43,8 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <GroupBox Header="Dados do Fornecedor" Grid.Row="1" Margin="10,10,10,10" Grid.ColumnSpan="2">
-            <Grid Background="#D9D9D9" Height="59">
+        <GroupBox Header="Dados do Fornecedor" Background="White" Grid.Row="1" Margin="10,10,10,10" Grid.ColumnSpan="2" BorderBrush="White">
+            <Grid Background="White" Height="59">
 
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="440.212"/>
@@ -52,16 +57,16 @@
                 <StackPanel Grid.ColumnSpan="5" Margin="0,0,0,20">
                     <WrapPanel>
                         <Label Content="CNPJ:" Grid.Column="0" VerticalAlignment="Center"/>
-                        <TextBox x:Name="txtCNPJ" Width="100" Grid.Column="1"/>
-                        <Button Content="Pesquisar" Grid.Column="2" Margin="1,0,0,0" Width="80"/>
+                        <TextBox x:Name="txtCNPJ" Width="100" Grid.Column="1"  BorderBrush="#faccd9"/>
+                        <Button Content="Pesquisar" Grid.Column="2" Margin="1,0,0,0" Width="80" Background="White" BorderBrush="#faccd9"/>
                     </WrapPanel>
                 </StackPanel>
                 <!-- Nome Empresa -->
                 <StackPanel Grid.ColumnSpan="5" Margin="0,0,0,20">
                     <WrapPanel>
-                        <Label Content="Nome Empresa:" Grid.Column="2" Grid.Row="1" VerticalAlignment="Center" Margin="220,0,0,0"/>
-                        <TextBox x:Name="txtNomeEmpresa" Width="95" Grid.Column="1" Grid.Row="1"/>
-                        <Button Content="Pesquisar" Grid.Column="2" Grid.Row="1" Margin="1,0,0,0" Width="80"/>
+                        <Label Content="Nome Empresa:" Grid.Column="2" Grid.Row="1" VerticalAlignment="Center" Margin="220,0,0,0" BorderBrush="#faccd9"/>
+                        <TextBox x:Name="txtNomeEmpresa" Width="95" Grid.Column="1" Grid.Row="1" BorderBrush="#faccd9"/>
+                        <Button Content="Pesquisar" Grid.Column="2" Grid.Row="1" Margin="1,0,0,0" Width="80" Background="White" BorderBrush="#faccd9"/>
                     </WrapPanel>
 
                 </StackPanel>
@@ -69,17 +74,17 @@
         </GroupBox>
 
         <!-- DataGrid para exibir resultados da consulta -->
-        <DataGrid x:Name="dgFornecedores" Grid.Row="2" Margin="10,10,10,10" AutoGenerateColumns="False" Background="#D9D9D9" Grid.ColumnSpan="2">
+        <DataGrid x:Name="dgFornecedores" Grid.Row="2" Margin="10,10,10,10" AutoGenerateColumns="False" Background="White" BorderBrush="#f9cbd5" Grid.ColumnSpan="2">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="CNPJ" Binding="{Binding CNPJ}" Width="*"/>
-                <DataGridTextColumn Header="Nome da Empresa" Binding="{Binding NomeEmpresa}" Width="*"/>
+                <DataGridTextColumn Header="CNPJ" Binding="{Binding CNPJ}" Width="*" />
+                <DataGridTextColumn Header="Nome da Empresa" Binding="{Binding NomeEmpresa}" Width="*" />
             </DataGrid.Columns>
         </DataGrid>
 
         <!-- Botões de ação -->
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left" Margin="121,10,0,10">
-            <Button Content="Realizar Nova Pesquisa" Margin="10" Foreground="White" Background="#8C6653" Height="31"/>
-            <Button Content="Voltar ao Menu Inicial" Margin="10" Foreground="White" Background="#8C6653"/>
+            <Button Content="Realizar Nova Pesquisa" Margin="10"  Background="White" Foreground="Black" BorderBrush="White" Height="31"/>
+            <Button Content="Voltar ao Menu Inicial" Margin="10"  Background="White" Foreground="Black" BorderBrush="White"/>
         </StackPanel>
     </Grid>
 </Window>

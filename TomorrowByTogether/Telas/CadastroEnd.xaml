@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TomorrowByTogether.Telas"
         mc:Ignorable="d"
-        Title="tela_Cadastro_endereco"  Background="#8C6653" Height="450" Width="800">
-    <Grid Background="#8C6653" Margin="20">
+        Title="tela_Cadastro_endereco"  Background="#EF3167" Height="450" Width="800">
+    <Grid Background="#EF3167" Margin="20">
         <Border Background="#D3D3D3" CornerRadius="50">
             <Grid Margin="20">
                 <Grid.ColumnDefinitions>

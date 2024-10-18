@@ -82,6 +82,9 @@
     <Compile Include="Telas\Produtos.xaml.cs">
       <DependentUpon>Produtos.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Telas\TelaUsu.xaml.cs">
+      <DependentUpon>TelaUsu.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -130,6 +133,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Telas\TelaUsu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -162,6 +169,7 @@
     <Content Include="Recursos\Imagens\brinquedo1.jfif" />
     <Content Include="Recursos\Imagens\brinquedo2.jfif" />
     <Content Include="Recursos\Imagens\brinquedo3.jfif" />
+    <Resource Include="Recursos\Imagens\fundo.jpeg" />
     <Resource Include="Recursos\Imagens\carrinho.png" />
     <Resource Include="Recursos\Imagens\check.png" />
     <Resource Include="Recursos\Imagens\configuracao.png" />

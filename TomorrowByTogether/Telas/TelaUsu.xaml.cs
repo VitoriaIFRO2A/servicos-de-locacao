@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace TomorrowByTogether.Telas
 {
     /// <summary>
-    /// Lógica interna para ConsutarFornecedor.xaml
+    /// Lógica interna para TelaUsu.xaml
     /// </summary>
-    public partial class ConsutarFornecedor : Window
+    public partial class TelaUsu : Window
     {
-        public ConsutarFornecedor()
+        public TelaUsu()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
