@@ -7,15 +7,12 @@
         mc:Ignorable="d"
 Title="Catálogo de Imagens" Height="450" Width="800">
     <ScrollViewer>
-        <Grid >
-            <Grid.Background>
-                <ImageBrush ImageSource="..\recursos\imagens\fundorossemdetalhes.jfif"/>
-            </Grid.Background>
+        <Grid Background="#EDE9E3">
 
             <!-- Barra superior com campo de pesquisa -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,390" >
                 <!-- Barra de pesquisa -->
-                <TextBox Width="300" BorderBrush="#DFD9D6" Background="White" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,10,0">
+                <TextBox Width="300" BorderBrush="#DFD9D6" Background="#DFD9D6" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,10,0">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="10"/>
@@ -43,7 +40,7 @@ Title="Catálogo de Imagens" Height="450" Width="800">
                 </Button>
             </StackPanel>
 
-            <TextBox Text="Diversão Garantida para a Sua Festa!!!" FontFamily="Georgia" Foreground="#EF3167" FontSize="30" Width="520" Height="35" HorizontalAlignment="Left"  VerticalAlignment="Stretch" Margin="10 0 0 1640" Background="Transparent" BorderBrush="Transparent"></TextBox>
+            <TextBox Text="Diversão Garantida para a Sua Festa!!!" FontFamily="Georgia" Foreground="#FF96A3" FontSize="30" Width="520" Height="35" HorizontalAlignment="Left"  VerticalAlignment="Stretch" Margin="10 0 0 1640" Background="Transparent" BorderBrush="Transparent"></TextBox>
             <TextBox Text="Brinque mais, preocupe-se menos" FontFamily="Asas" Width="210" Height="30" HorizontalAlignment="Left"  VerticalAlignment="Stretch" Margin="340 25 0 1600" Background="Transparent" BorderBrush="Transparent"></TextBox>
 
             <!-- Relógio funcional -->
@@ -67,8 +64,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
 
 
             <!-- 1 -->
-            <WrapPanel Margin="10 200 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="10 200 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo1.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -88,8 +85,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 2 -->
-            <WrapPanel Margin="0 200 200 0 " HorizontalAlignment="Center" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 200 200 0 " HorizontalAlignment="Center" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo2.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -109,8 +106,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 3 -->
-            <WrapPanel Margin="0 200 205 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 200 205 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo3.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -130,8 +127,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 4 -->
-            <WrapPanel Margin="0 200 10 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 200 10 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo3.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -151,8 +148,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 5 -->
-            <WrapPanel Margin="10 500 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="10 500 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo1.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -172,8 +169,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 6 -->
-            <WrapPanel Margin="0 500 200 0 " HorizontalAlignment="Center" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 500 200 0 " HorizontalAlignment="Center" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo2.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -193,8 +190,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 7 -->
-            <WrapPanel Margin="0 500 205 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 500 205 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo3.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -214,8 +211,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 8 -->
-            <WrapPanel Margin="0 500 10 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 500 10 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo3.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -235,8 +232,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 9 -->
-            <WrapPanel Margin="10 800 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="10 800 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo1.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -256,8 +253,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 10 -->
-            <WrapPanel Margin="0 800 200 0 " HorizontalAlignment="Center" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 800 200 0 " HorizontalAlignment="Center" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo2.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -277,8 +274,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 11 -->
-            <WrapPanel Margin="0 800 205 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 800 205 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo3.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -298,8 +295,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 12 -->
-            <WrapPanel Margin="0 800 10 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 800 10 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo3.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -319,8 +316,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 13 -->
-            <WrapPanel Margin="10 1100 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="10 1100 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo1.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -340,8 +337,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 14 -->
-            <WrapPanel Margin="0 1100 200 0 " HorizontalAlignment="Center" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 1100 200 0 " HorizontalAlignment="Center" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo2.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -361,8 +358,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 15 -->
-            <WrapPanel Margin="0 1100 205 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 1100 205 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo3.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -382,8 +379,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 16 -->
-            <WrapPanel Margin="0 1100 10 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 1100 10 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo3.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -403,8 +400,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 17 -->
-            <WrapPanel Margin="10 1400 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="10 1400 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo1.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -424,8 +421,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 18 -->
-            <WrapPanel Margin="0 1400 200 0 " HorizontalAlignment="Center" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 1400 200 0 " HorizontalAlignment="Center" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo2.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -445,8 +442,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 19 -->
-            <WrapPanel Margin="0 1400 205 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 1400 205 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo3.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>
@@ -466,8 +463,8 @@ Title="Catálogo de Imagens" Height="450" Width="800">
             </WrapPanel>
 
             <!-- 20 -->
-            <WrapPanel Margin="0 1400 10 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="White">
-                <Border BorderBrush="Transparent" Background="#feeaec" BorderThickness="1" Width="150" Height="180" Margin="15">
+            <WrapPanel Margin="0 1400 10 0" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#D9D9D9">
+                <Border BorderBrush="Transparent" Background="#EDE9E3" BorderThickness="1" Width="150" Height="180" Margin="15">
                     <StackPanel>
                         <!-- Imagem -->
                         <Image Source="\recursos\imagens\brinquedo3.jfif" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 10" Height="100"></Image>

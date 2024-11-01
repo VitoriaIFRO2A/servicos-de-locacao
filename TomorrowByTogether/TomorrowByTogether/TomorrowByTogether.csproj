@@ -58,9 +58,6 @@
     <Compile Include="Telas\CadastroEnd.xaml.cs">
       <DependentUpon>CadastroEnd.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Telas\CadastroUsu.xaml.cs">
-      <DependentUpon>CadastroUsu.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Telas\CadClienteDois.xaml.cs">
       <DependentUpon>CadClienteDois.xaml</DependentUpon>
     </Compile>
@@ -76,37 +73,17 @@
     <Compile Include="Telas\Catalogo.xaml.cs">
       <DependentUpon>Catalogo.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Telas\ConsultaCliente.xaml.cs">
-      <DependentUpon>ConsultaCliente.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Telas\ConsultaEqui.xaml.cs">
-      <DependentUpon>ConsultaEqui.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Telas\ConsultaFuncionario.xaml.cs">
-      <DependentUpon>ConsultaFuncionario.xaml</DependentUpon>
-    <Compile Include="Telas\ConfirmarCadastro.xaml.cs">
-      <DependentUpon>ConfirmarCadastro.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Telas\ConsultarAgendamento.xaml.cs">
       <DependentUpon>ConsultarAgendamento.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Telas\ConsultaUsuario.xaml.cs">
-      <DependentUpon>ConsultaUsuario.xaml</DependentUpon>
     </Compile>
     <Compile Include="Telas\ConsutarFornecedor.xaml.cs">
       <DependentUpon>ConsutarFornecedor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Telas\DadosCorretos.xaml.cs">
-      <DependentUpon>DadosCorretos.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Telas\DadosIncorretos.xaml.cs">
-      <DependentUpon>DadosIncorretos.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Telas\Produtos.xaml.cs">
       <DependentUpon>Produtos.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Telas\Tela de Agendamento.xaml.cs">
-      <DependentUpon>Tela de Agendamento.xaml</DependentUpon>
+    <Compile Include="Telas\TelaUsu.xaml.cs">
+      <DependentUpon>TelaUsu.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -121,10 +98,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Telas\CadastroEnd.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Telas\CadastroUsu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -148,24 +121,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Telas\ConsultaCliente.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Telas\ConsultaEqui.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Telas\ConsultaFuncionario.xaml">
-    <Page Include="Telas\ConfirmarCadastro.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Telas\ConsultarAgendamento.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Telas\ConsultaUsuario.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -173,19 +129,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Telas\DadosCorretos.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Telas\DadosIncorretos.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Telas\Produtos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Telas\Tela de Agendamento.xaml">
+    <Page Include="Telas\TelaUsu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -221,11 +169,7 @@
     <Content Include="Recursos\Imagens\brinquedo1.jfif" />
     <Content Include="Recursos\Imagens\brinquedo2.jfif" />
     <Content Include="Recursos\Imagens\brinquedo3.jfif" />
-    <Content Include="Recursos\Imagens\fundobeijos.jfif" />
-    <Content Include="Recursos\Imagens\FundoRosa.jfif" />
-    <Content Include="Recursos\Imagens\fundorossemdetalhes.jfif" />
-    <Resource Include="Recursos\Imagens\Laco.png" />
-    <Resource Include="Recursos\Imagens\Mymelody.png" />
+    <Resource Include="Recursos\Imagens\fundo.jpeg" />
     <Resource Include="Recursos\Imagens\carrinho.png" />
     <Resource Include="Recursos\Imagens\check.png" />
     <Resource Include="Recursos\Imagens\configuracao.png" />
