@@ -15,16 +15,21 @@ using System.Windows.Shapes;
 namespace TomorrowByTogether.Telas
 {
     /// <summary>
-    /// Lógica interna para CadFornecedor.xaml
+    /// Lógica interna para CadastroUsu.xaml
     /// </summary>
-    public partial class CadFornecedor : Window
+    public partial class CadastroUsu : Window
     {
-        public CadFornecedor()
+        public CadastroUsu()
         {
             InitializeComponent();
         }
 
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void EmployeeNameTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }

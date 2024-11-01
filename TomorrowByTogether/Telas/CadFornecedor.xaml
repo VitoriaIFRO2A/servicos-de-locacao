@@ -51,7 +51,7 @@
                                 <TextBox Padding="3"/>
 
                                 <Label Content="Estado:"/>
-                                <ComboBox Padding="4"></ComboBox>
+                                <ComboBox Padding="4" SelectionChanged="ComboBox_SelectionChanged"></ComboBox>
 
                                 <Label Content="Endereço:"/>
                                 <TextBox Padding="3"/>

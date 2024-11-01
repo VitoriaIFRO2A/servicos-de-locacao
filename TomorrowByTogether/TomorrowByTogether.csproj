@@ -58,6 +58,9 @@
     <Compile Include="Telas\CadastroEnd.xaml.cs">
       <DependentUpon>CadastroEnd.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Telas\CadastroUsu.xaml.cs">
+      <DependentUpon>CadastroUsu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Telas\CadClienteDois.xaml.cs">
       <DependentUpon>CadClienteDois.xaml</DependentUpon>
     </Compile>
@@ -76,8 +79,17 @@
     <Compile Include="Telas\ConsultaCliente.xaml.cs">
       <DependentUpon>ConsultaCliente.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Telas\ConsultaEqui.xaml.cs">
+      <DependentUpon>ConsultaEqui.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\ConsultaFuncionario.xaml.cs">
+      <DependentUpon>ConsultaFuncionario.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Telas\ConsultarAgendamento.xaml.cs">
       <DependentUpon>ConsultarAgendamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\ConsultaUsuario.xaml.cs">
+      <DependentUpon>ConsultaUsuario.xaml</DependentUpon>
     </Compile>
     <Compile Include="Telas\ConsutarFornecedor.xaml.cs">
       <DependentUpon>ConsutarFornecedor.xaml</DependentUpon>
@@ -101,6 +113,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Telas\CadastroEnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\CadastroUsu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -128,7 +144,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Telas\ConsultaEqui.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\ConsultaFuncionario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Telas\ConsultarAgendamento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\ConsultaUsuario.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
